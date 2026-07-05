@@ -1,28 +1,47 @@
-PCB-Defect-Detection-Using-YOLOv8
+
+YOLO-PCB-Detection/
 │
-├── Overview
-├── Problem Statement
-├── Dataset
-├── Methodology
-├── Model Architecture
-├── Training Configuration
-├── Results
-├── Performance Metrics
-├── Deployment
-├── Project Structure
-├── Installation
-├── Usage
-├── Future Improvements
-└── References
+├── README.md
+│
+├── dataset/
+│   └── sample_images/
+│       ├── image1.jpg
+│       
+│
+├── project_code/
+│   └── Project.ipynb
+│
+├── results/
+│   ├──
 
-# PCB Defect Detection Using YOLOv8 - Project Overview
 
-Printed Circuit Boards (PCBs) are fundamental components of modern electronic devices. Manual inspection of PCB defects is time-consuming, expensive, and prone to human error. This project presents an automated PCB defect detection system using YOLOv8 to identify manufacturing defects in real time.
 
-The model is trained using transfer learning on a labeled PCB defect dataset and optimized for edge deployment. By leveraging modern object detection techniques, the system enables accurate and efficient quality inspection suitable for industrial automation and smart manufacturing applications.
+Overview
 
-## Problem Statement
+Printed Circuit Boards (PCBs) are the foundation of modern electronic devices. Ensuring the quality of PCBs is crucial for maintaining product reliability and reducing manufacturing costs. Manual inspection of PCB defects is time-consuming, labor-intensive, and prone to human error.
 
-Traditional PCB inspection relies heavily on manual verification or specialized hardware systems. These approaches can be slow, costly, and difficult to scale in high-volume manufacturing environments.
+This project presents an automated PCB defect detection system using the YOLOv8 object detection framework. The model is trained to identify and classify PCB defects with high accuracy, enabling faster and more reliable quality inspection in industrial manufacturing environments.
 
-The objective of this project is to develop a lightweight and accurate computer vision system capable of automatically detecting PCB defects and classifying multiple defect categories with minimal computational overhead.
+Problem Statement
+
+Traditional PCB inspection methods rely heavily on manual visual examination or specialized inspection systems, which can be expensive and difficult to scale.
+
+The objective of this project is to develop an efficient computer vision-based solution capable of automatically detecting PCB defects in real time, thereby improving inspection accuracy, reducing human intervention, and increasing manufacturing productivity.
+
+Objectives
+Develop an automated PCB defect detection system using YOLOv8.
+Detect and classify multiple PCB defect categories accurately.
+Reduce dependency on manual inspection processes.
+Optimize the trained model for efficient deployment.
+Enable real-time defect detection for industrial applications.
+Evaluate model performance using standard object detection metrics.
+Achievements
+Successfully trained a YOLOv8-based PCB defect detection model.
+Achieved 98.5% mAP@0.5 on the test dataset.
+Built a lightweight model suitable for edge deployment.
+Exported the trained model to ONNX format (~12 MB).
+Achieved approximately 10 FPS inference speed on Raspberry Pi 5.
+Developed a scalable solution for automated PCB quality inspection.
+
+
+Download the repo as a zip file to access the code.
